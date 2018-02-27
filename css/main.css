@@ -1,0 +1,220 @@
+
+html {
+	height: 100%;
+}
+
+body {
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+	background-color: #f8c471;
+	min-height: 100%;
+}
+
+nav {
+	margin-top: 60px;
+	width: 100%;
+	background-color: #dc7633;
+}
+
+footer {
+	height: 100px;
+	position: absolute;
+	bottom: 60px;
+	background-color: #dc7633;
+	left: 0;
+	right: 0;
+	margin-bottom: 60px;
+}
+
+h1 {
+	margin: 0px;
+	font-size: 80px;
+	color: white;
+}
+
+h2 {
+	font-size: 30px;
+	font-family: Helvetica;
+	color: white;
+	text-shadow: 1px 2px 4px black;
+} 
+
+h3 {
+	color: black;
+	font-size: 20px;
+	font-family: Helvetica;
+}
+
+p {
+	font-size: 20px;
+}
+
+a {
+	text-decoration: none;
+}
+
+table {
+	position: relative;
+	width: 25%;
+	margin: auto;
+}
+
+
+#title {
+	font-family: 'Days One', sans-serif;
+	text-align: center;
+	text-shadow: 2px 2px 4px black;
+	text-transform: uppercase;
+}
+
+.wrapper {
+	max-width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	padding-bottom: 300px;
+}
+
+
+#rules {
+	margin-top: 40px;
+	text-align: center;
+}
+
+#questionsAnswers {
+	margin: 100px 10px 30px 10px;
+	border-radius: 6px;
+	background-color: #fad7a0;
+	padding: 20px 20px 20px 20px;
+	box-shadow: 1px 1px 4px black;
+	height: 100%;
+	position: relative;
+}
+
+#results {
+	text-align: center;
+	display: none;
+}
+
+#inner {
+	display: block;
+}
+
+#startButton {
+	margin: auto;
+	margin-top: 150px;
+	width: 300px;
+	height: 100px;
+	border-radius: 20px;
+	border: 1px solid #2874a6;
+	background-color: #3498db;
+	color: white;
+	box-shadow: 1px 1px 4px black; 
+}
+
+#startButton:hover {
+	background-color: #5dade2;
+	cursor: pointer;
+}
+
+#start {
+	width: 100%;
+	padding: 0px;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 80px;
+	font-family: 'Days One', sans-serif;
+	text-shadow: 2px 2px black;
+	color: white;
+}
+
+#question {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+#answersBlock {
+	position: relative;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.submitBack {
+	width: 40%;
+	margin: 0 auto;
+}
+
+.radio {
+	margin: 8px;
+}
+
+#submit {
+	margin: 40px 20px 40px 20px;
+	width: 80px;
+	height: 30px;
+	border-radius: 6px;
+	border: 1px solid #2874a6;
+	background-color: #3498db;
+	color: white;
+	box-shadow: 1px 1px 2px black;
+}
+
+#submit:hover {
+	background-color: #5dade2;
+	cursor: pointer;
+} 
+
+#back {
+	margin: 40px 20px 40px 20px;
+	float: right;
+	width: 80px;
+	height: 30px;
+	border-radius: 6px;
+	border: 1px solid #d7dbdd;
+	background-color: #e5e7e9;
+	color: black;
+	box-shadow: 1px 1px 2px black;
+}
+
+#back:hover {
+	background-color: #f2f3f4;
+	cursor: pointer;
+}
+
+#retake {
+	cursor: pointer;
+	margin: 40px 20px 40px 20px;
+	width: 80px;
+	height: 30px;
+	border-radius: 6px;
+	border: 1px solid #2874a6;
+	background-color: #3498db;
+	color: white;
+	box-shadow: 1px 1px 2px black;
+}
+
+
+@media only screen and (max-width: 414px) {
+
+
+	h1 {
+		margin: 0px;
+		font-size: 150px;
+		color: white;
+	}
+
+	h2 {
+		font-size: 50px;
+		font-family: Helvetica;
+		color: white;
+		text-shadow: 1px 2px 4px black;
+	} 
+
+	h3 {
+		color: black;
+		font-size: 50px;
+		font-family: Helvetica;
+		text-decoration: underline;
+	}
+	
+}
